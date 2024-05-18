@@ -2,7 +2,7 @@
   "name": "foodymonck",
   "version": "1.0.0",
   "description": "",
-  "homepage": " https://PrajwalGpy.github.io/foodking",
+  "homepage": "https://prajwalgpy.github.io/foodking",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.24.5",
     "buffer": "^6.0.3",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
