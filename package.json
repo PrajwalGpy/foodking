@@ -2,8 +2,10 @@
   "name": "foodymonck",
   "version": "1.0.0",
   "description": "",
-  "homepage": "./",
+  "homepage": " https://PrajwalGpy.github.io/foodking",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
