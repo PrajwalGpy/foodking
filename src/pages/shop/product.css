@@ -1,0 +1,170 @@
+/* .card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 10px;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+} */
+.card {
+  display: grid;
+  transition: all 0.05s ease 0s;
+  cursor: pointer;
+  gap: 12px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.card:hover {
+  transform: scale(0.95, 0.95);
+  transform-origin: center center;
+  transition: all 0.1s ease-in 0s;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  opacity: 1;
+  will-change: transform, opacity;
+  border-radius: inherit;
+  filter: unset;
+  transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+
+.card-details {
+  flex: 1;
+}
+
+.card-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card-details h5 {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.rating-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.separator {
+  margin: 0 5px;
+}
+/* .cardimg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+} */
+
+/* edanna nane madde */
+.cardimg1 {
+  display: block;
+  position: relative;
+  cursor: pointer;
+
+  transition: opacity 0.25s ease-out 0s;
+  will-change: opacity;
+  border-radius: inherit;
+  animation: 1.5s linear 0s infinite normal forwards running jCOzbu;
+}
+
+/* .cardimg1::before {
+  content: "";
+  height: 0px;
+  display: block;
+  padding-top: calc(66.6667%);
+} */
+.cardimg2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+}
+.restcard-info {
+  margin-left: 12px;
+}
+.restcard-name {
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  font-family: Basis_Grotesque_Pro_Bold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.75);
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.restcard-star-time {
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 2px;
+  gap: 2px;
+  grid-auto-flow: column;
+  -webkit-box-pack: start;
+  justify-content: start;
+}
+.restcard-starSVG {
+  margin-top: -2px;
+}
+.restcard-location {
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 2px;
+  gap: 2px;
+}
+.dnXOKm {
+  -webkit-font-smoothing: antialiased;
+  font-family: Basis_Grotesque_Pro;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.6);
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.restcard-rating {
+  margin-top: -4px;
+}
+.gnOsqr {
+  -webkit-font-smoothing: antialiased;
+  font-family: Basis_Grotesque_Pro_Bold;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.75);
+}

@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-weight: 300;
+  color: #282c3f;
+  scroll-behavior: smooth;
+}
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -ms-text-size-adjust: none;
+  outline: none;
+  font-family: "Basis Grotesque Pro", Arial, sans-serif !important;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+a,
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
